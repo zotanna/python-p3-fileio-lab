@@ -5,6 +5,23 @@
 - Practice using file IO.
 - Execute and test Python code using the Python shell and `pytest`.
 
+## Key Vocab
+
+- **Module**: a file containing Python definitions and statements. A module's
+functions, classes, and global variables can be accessed by other modules.
+- **Package**: a collection of modules that can be accessed as a group using
+the package name.
+- **`import`**: the Python keyword used to access data from other packages and
+modules inside of the current module.
+- **PyPI**: the **Py**thon **P**ackage **I**ndex. A repository of Python
+packages that can be downloaded and made available to your application.
+- **`pip`**: the command line tool used to download packages from PyPI. `pip`
+is installed on your computer automatically when you download Python.
+- **Virtual Environment**: a collection of modules, packages, and scripts that
+can be activated or deactivated at any time.
+- **Pipenv**: a virtual environment tool that uses `pip` to manage the modules,
+packages, and scripts that you intend to use in your application.
+
 ***
 
 ## Introduction
