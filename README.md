@@ -35,9 +35,10 @@ file IO.
 
 ## Instructions
 
-Lets practice! In the file `file_io.py` write a function called `write_file` that takes in the arguments `file_name` and `file_content`.
+Lets practice! In the file `file_io.py` write a function called `write_file`
+that takes in the arguments `file_name` and `file_content`.
 The `file_name` can be a combined file path/name.
-This function should use `file_name` and `file_content` to write a `txt`
+This function should use `file_name` and `file_content` to write a `.txt`
 file.
 
 Write a `append_to_file` function that takes in the same parameters and
@@ -58,7 +59,8 @@ read_file(file_name="logfile")
 # Log 2: 3 bananas subtracted
 ```
 
-Time to get some practice! Write your code in the `file_io.py` file in the lib folder. Run `pytest -x` to check your work.
+Time to get some practice! Write your code in the `file_io.py` file in the
+`lib/` folder. Run `pytest -x` to check your work.
 
 When all of your tests are passing, submit your work using `git`.
 
