@@ -5,6 +5,8 @@
 - Practice using file IO.
 - Execute and test Python code using the Python shell and `pytest`.
 
+***
+
 ## Key Vocab
 
 - **Module**: a file containing Python definitions and statements. A module's
@@ -36,8 +38,11 @@ file IO.
 ## Instructions
 
 Lets practice! In the file `file_io.py` write a function called `write_file` that takes in the arguments `file_name` and `file_content`.
-The `file_name` can be a combined file path/name.
-This function should use `file_name` and `file_content` to write a `txt`
+
+The `file_name` can be a combined file path/name, you will need to add the file extension
+to the `file_name` when opening a file.
+
+This function should use `file_name`  included and `file_content` to write a `.txt`
 file.
 
 Write a `append_to_file` function that takes in the same parameters and
