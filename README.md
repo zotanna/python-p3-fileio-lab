@@ -63,7 +63,8 @@ read_file(file_name="logfile")
 # Log 2: 3 bananas subtracted
 ```
 
-Time to get some practice! Write your code in the `file_io.py` file in the lib folder. Run `pytest -x` to check your work.
+Time to get some practice! Write your code in the `file_io.py` file in the
+`lib/` folder. Run `pytest -x` to check your work.
 
 When all of your tests are passing, submit your work using `git`.
 
