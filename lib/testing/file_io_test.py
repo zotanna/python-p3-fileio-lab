@@ -28,20 +28,24 @@ def test_append_to_file():
 
     filename = str(uuid.uuid4())
     expected_file_content = f'{str(uuid.uuid4())}\n'
-    expected_append_content= str(uuid.uuid4())
+    append_content= f'{str(uuid.uuid4())}\n'
+    append_content_two= f'{str(uuid.uuid4())}\n'
 
     write_file(f'{tmp_dirname}/{filename}', expected_file_content)
-    append_file(f'{tmp_dirname}/{filename}', expected_append_content)
+    append_file(f'{tmp_dirname}/{filename}', append_content)
+    append_file(f'{tmp_dirname}/{filename}', append_content_two)
 
     assert os.path.exists(f'{tmp_dirname}/{filename}.txt') == True
     
     # Check file content
-    expected_content_list = [expected_file_content, expected_append_content]
-    
+    expected_content_list = [expected_file_content, append_content, append_content_two]
+
     with open(f'{tmp_dirname}/{filename}.txt') as f:
+      lines = f.readlines()
+      assert(len(lines) == 3)
       index = 0
 
-      for line in f:
+      for line in lines:
         assert expected_content_list[index] == line
         index += 1
 
