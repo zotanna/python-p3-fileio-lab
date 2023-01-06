@@ -39,7 +39,7 @@ file IO.
 
 Lets practice! In the file `file_io.py` write a function called `write_file` that takes in the arguments `file_name` and `file_content`.
 
-The `file_name` can be a combined file path/name, you will need to add the file extension
+The `file_name` can be a combined file path/name, you will need to add the `.txt` file extension
 to the `file_name` when opening a file.
 
 This function should use `file_name`  included and `file_content` to write a `.txt`
