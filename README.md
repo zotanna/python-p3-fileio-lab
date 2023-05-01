@@ -3,7 +3,6 @@
 ## Learning Goals
 
 - Practice using file IO.
-- Execute and test Python code using the Python shell and `pytest`.
 
 ***
 
@@ -37,18 +36,18 @@ file IO.
 
 ## Instructions
 
-Lets practice! In the file `file_io.py` write a function called `write_file` that takes in the arguments `file_name` and `file_content`.
+Lets practice! In the file `lib/file_io.py` write a function called `write_file` that takes in the arguments `file_name` and `file_content`.
 
 The `file_name` can be a combined file path/name, you will need to add the `.txt` file extension
-to the `file_name` when opening a file.
+to the `file_name` when opening a file for all three of the methods.
 
-This function should use `file_name`  included and `file_content` to write a `.txt`
+This function should use `file_name` and `file_content` to write a `.txt`
 file.
 
-Write a `append_to_file` function that takes in the same parameters and
+Write a `append_file` function that takes in the same parameters and
 appends to the `.txt` file.
 
-Write a `read_file` function that takes in a file name and  returns the
+Write a `read_file` function that takes in a file name and returns the
  content of the `.txt` file.
 
 Example usage:
